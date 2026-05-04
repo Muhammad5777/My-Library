@@ -1,0 +1,197 @@
+@page, body {
+    margin-bottom: 5pt;
+    margin-top: 5pt;
+}
+
+p {
+    display: block;
+    min-height: 1em;
+    text-indent: 1.8rem;
+    margin: 0 0 0 0;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toc-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    list-style: none !important;
+}
+
+.nested-toc-list-item {
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+
+.hidden-list-level {
+    list-style-type: none;
+}
+
+/* No indent style for paragraphs */ .noindent, p.noindent {
+    text-indent: 0 !important;
+    margin-top: 0;
+}
+
+/* Heading styles */ .heading_1, .heading_2, .heading_3 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Front matter styles */ .front_matter {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Link styles */ a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+#toc a {
+    color: #00b0f0;
+}
+
+.list_1 {
+    list-style-type: decimal;
+    margin-left: 1rem;
+    text-indent: -1rem;
+}
+
+.list_2 {
+    list-style-type: disc;
+    margin-left: 2.5rem;
+    text-indent: -2.5rem;
+}
+
+.list_3 {
+    list-style-type: decimal;
+    margin-left: 4rem;
+    text-indent: -2.5rem;
+}
+
+.run_1 {
+    font-weight: bold;
+}
+
+.run_2 {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #00B0F0;
+}
+
+.run_3 {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #00B0F0;
+    font-style: italic;
+}
+
+.run_4 {
+    font-size: 1rem;
+}
+
+.run_5 {
+    font-style: italic;
+}
+
+.run_6 {
+    font-style: italic;
+    font-size: 0.75rem;
+    vertical-align: super;
+}
+
+.run_7 {
+    font-size: 0.75rem;
+    vertical-align: super;
+}
+
+.run_8 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading_2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #00B0F0;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.0rem;
+    margin: 5rem 0 2.5rem 0;
+}
+
+.centered {
+    text-indent: 0rem;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.front_matter {
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.0rem;
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+.noindent {
+    text-indent: 0rem;
+    margin: 0 0 0 0;
+}
+
+.numbering {
+    font-weight: bold;
+    text-indent: 0rem;
+    margin: 1rem 0 0.75rem 0;
+}
+
+.separator {
+    text-indent: 0rem;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.the_end {
+    font-weight: bold;
+    text-indent: 0rem;
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.list_paragraph {
+    text-indent: 1.8rem;
+    margin: 0 0 0 3rem;
+}
+
+.afterword {
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2.0rem;
+    margin: 5rem 0 2.5rem 0;
+}
+
