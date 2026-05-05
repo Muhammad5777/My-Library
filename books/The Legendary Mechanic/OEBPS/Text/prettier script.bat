@@ -1,0 +1,1 @@
+npx prettier . --print-width 99999 --write
