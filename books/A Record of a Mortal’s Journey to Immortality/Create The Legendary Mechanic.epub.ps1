@@ -1,0 +1,1 @@
+& "..\..\scripts\Create EPUB.ps1" -SourceFolder "." -OutputEpub ".\A Record of a Mortal's Journey to Immortality.epub"
